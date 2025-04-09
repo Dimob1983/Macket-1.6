@@ -1,0 +1,47 @@
+.bottom-info {
+  min-width: 288px;
+  min-height: 192px;
+}
+
+.bottom-info__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 16px;
+}
+
+.bottom-info__link {
+  display: block;
+  text-decoration: none;
+  margin-left: 16px;
+  color: #1b1c21;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.bottom-info__link:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bottom-info__link:after {
+  content: '';
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background-image: url('/src/img/Line.svg');
+  background-repeat: no-repeat;
+  top: 10px;
+  left: 5px;
+}
+
+@media (min-width: 1366px) {
+  .bottom-info {
+    margin-left: 320px;
+  }
+}

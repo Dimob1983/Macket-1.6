@@ -1,0 +1,37 @@
+.footer-info {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.footer-info__text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-info {
+    display: flex;
+    justify-content: space-evenly;
+    height: 81px;
+  }
+
+  .footer-info__text {
+    margin-top: 32px;
+    width: 218px;
+  }
+
+  .footer-info__text_alignment-left {
+    text-align: left;
+  }
+
+  .footer-info__text_alignment-right {
+    text-align: right;
+  }
+}
+
+@media (min-width: 1366px) {
+  .footer-info {
+    margin-left: 320px;
+  }
+}

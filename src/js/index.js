@@ -1,0 +1,7 @@
+import '../scss/style.scss'
+import './swiper.js'
+import './buttonAllBrands.js'
+import './feedBack.js'
+import './popupMenu.js'
+import './callBack.js'
+import './pageBlur.js'

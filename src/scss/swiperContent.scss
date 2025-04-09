@@ -1,0 +1,134 @@
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.content {
+  min-width: 320px;
+  height: 234px;
+  position: relative;
+  background-color: #f8f8f8;
+  border-top: 1px solid #d9fff5;
+  transition-property: height;
+  transition-duration: 1s;
+}
+
+.content__title {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  background-image: linear-gradient(-180deg, #f8f8f8, #ffffff);
+  align-items: center;
+  padding: 16px;
+  color: #7e7e82;
+  margin-bottom: 0;
+  margin: 0%;
+}
+
+.content__brands {
+  display: flex !important;
+  height: 72px !important;
+  margin-top: 5px !important;
+}
+
+.content__brand {
+  width: 208px;
+  height: 72px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 16px;
+  margin: 16px;
+  background-color: white;
+  margin: 0 auto 0 auto;
+  margin-left: 16px;
+}
+
+.content__brand:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.content__img_short-brand {
+  width: 44px !important;
+  height: 44px;
+}
+
+.content__img {
+  width: 108px;
+  height: 32px;
+}
+
+.content__pagination {
+  position: relative;
+  top: 10px !important;
+}
+
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+    height: auto;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+
+  .brands_show {
+    transform: translate3d(0px, 0px, 0px) !important;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 350px !important;
+    transition-property: height;
+    transition-duration: 1s;
+    margin: 5px 0 16px 0;
+  }
+
+  .content__brands {
+    transform: translate3d(0px, 0px, 0px) !important;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 170px !important;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+
+  .content__brand {
+    margin: 16px;
+    padding: 0;
+    height: 72px;
+    width: 192px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 16px;
+    margin: 16px 0 0 24px;
+  }
+
+  .content__button {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 1366px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+    max-width: 1366px;
+    margin-left: 320px;
+  }
+
+  .brands_show {
+    min-width: auto;
+    height: 260px !important;
+    transition-property: height;
+    transition-duration: 1s;
+  }
+}

@@ -1,0 +1,215 @@
+.header-menu {
+  display: flex;
+  min-width: 320px;
+  height: 88px;
+  background-color: white;
+}
+
+.header-menu__text-button-menu {
+  display: none;
+}
+
+.header-menu__logo {
+  margin-left: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-menu__hr {
+  border: 1px solid #eaeaea;
+  border-radius: 1px;
+  width: 2px;
+  height: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-menu__hr_hide {
+  display: none;
+}
+
+.header-menu__hr_mobile {
+  margin-left: 16px;
+}
+
+.header-menu__button_burger {
+  margin-left: 16px;
+  background-image: url('/src/img/icon.svg');
+}
+
+.header-menu__button_burger:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-menu__button_call-me {
+  margin-left: auto;
+  margin-right: 16px;
+  display: none;
+  background-image: url('/src/img/call.svg');
+}
+
+.header-menu__button_call-me:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-menu__button_chat {
+  margin-right: 16px;
+  display: none;
+  background-image: url('/src/img/chat.svg');
+}
+
+.header-menu__button_chat:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-menu__button_profile {
+  display: none;
+  background-image: url('/src/img/profile.svg');
+}
+
+.header-menu__button_profile:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-menu__button_repair {
+  margin-right: 16px;
+  background-image: url('/src/img/tools.svg');
+}
+
+.header-menu__button_repair:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header-menu__button_checkstatus {
+  margin-right: 16px;
+  background-image: url('/src/img/search.svg');
+}
+
+.header-menu__button_checkstatus:hover {
+  transition: 0.2s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .header-menu {
+    min-width: 768px;
+  }
+
+  .header-first-block__title-button-pc {
+    display: none;
+  }
+
+  .header-menu__text-button-menu {
+    display: none;
+  }
+
+  .header-menu__logo {
+    margin-left: 0;
+  }
+
+  .header-menu__hr_hide {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .header-menu__hr_mobile {
+    display: none;
+  }
+
+  .header-menu__button_call-me {
+    display: flex;
+  }
+
+  .header-menu__button_chat {
+    display: flex;
+  }
+
+  .header-menu__button_profile {
+    display: flex;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header-menu {
+    min-width: 1046px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: #f8f8f8;
+    margin-left: 320px;
+  }
+
+  .header-menu__text-button-menu {
+    display: flex;
+  }
+
+  .header-menu__logo {
+    display: none;
+  }
+
+  .header-menu__hr {
+    display: none;
+  }
+
+  .header-menu__button_burger {
+    display: none;
+  }
+
+  .header-menu__button_call-me {
+    display: none;
+  }
+
+  .header-menu__button_chat {
+    display: none;
+  }
+
+  .header-menu__button_profile {
+    display: none;
+    background-color: #f8f8f8;
+  }
+
+  .header-menu__button_repair {
+    display: inline-flex;
+    align-items: center;
+    width: 185px;
+    border-radius: 0;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    margin-left: auto;
+    font-family: 'TT-Lakes';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .header-menu__button_checkstatus {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    border-radius: 0;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    font-family: 'TT-Lakes';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 24px;
+  }
+}
