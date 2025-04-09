@@ -909,7 +909,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_burger {
   margin-left: 16px;
-  background-image: url('/src/img/icon.svg');
+  background-image: url('/img/icon.svg');
 }
 
 .header-menu__button_burger:hover {
@@ -922,7 +922,7 @@ button.swiper-pagination-bullet {
   margin-left: auto;
   margin-right: 16px;
   display: none;
-  background-image: url('/src/img/call.svg');
+  background-image: url('/img/call.svg');
 }
 
 .header-menu__button_call-me:hover {
@@ -934,7 +934,7 @@ button.swiper-pagination-bullet {
 .header-menu__button_chat {
   margin-right: 16px;
   display: none;
-  background-image: url('/src/img/chat.svg');
+  background-image: url('/img/chat.svg');
 }
 
 .header-menu__button_chat:hover {
@@ -945,7 +945,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_profile {
   display: none;
-  background-image: url('/src/img/profile.svg');
+  background-image: url('/img/profile.svg');
 }
 
 .header-menu__button_profile:hover {
@@ -956,7 +956,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_repair {
   margin-right: 16px;
-  background-image: url('/src/img/tools.svg');
+  background-image: url('/img/tools.svg');
 }
 
 .header-menu__button_repair:hover {
@@ -967,7 +967,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_checkstatus {
   margin-right: 16px;
-  background-image: url('/src/img/search.svg');
+  background-image: url('/img/search.svg');
 }
 
 .header-menu__button_checkstatus:hover {
