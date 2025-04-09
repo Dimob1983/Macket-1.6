@@ -79,7 +79,7 @@ ul {
   position: relative;
   width: 10px;
   height: 20px;
-  background-image: url('/src/img/dropdown.svg');
+  background-image: url(./static/dropdown.svg);
   background-repeat: no-repeat;
   top: 12px;
   left: 37px;
@@ -909,7 +909,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_burger {
   margin-left: 16px;
-  background-image: url('/img/icon.svg');
+  background-image: url(./static/icon.svg);
 }
 
 .header-menu__button_burger:hover {
@@ -922,7 +922,7 @@ button.swiper-pagination-bullet {
   margin-left: auto;
   margin-right: 16px;
   display: none;
-  background-image: url('/img/call.svg');
+  background-image: url(./static/call.svg);
 }
 
 .header-menu__button_call-me:hover {
@@ -934,7 +934,7 @@ button.swiper-pagination-bullet {
 .header-menu__button_chat {
   margin-right: 16px;
   display: none;
-  background-image: url('/img/chat.svg');
+  background-image: url(./static/chat.svg);
 }
 
 .header-menu__button_chat:hover {
@@ -945,7 +945,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_profile {
   display: none;
-  background-image: url('/img/profile.svg');
+  background-image: url(./static/profile.svg);
 }
 
 .header-menu__button_profile:hover {
@@ -956,7 +956,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_repair {
   margin-right: 16px;
-  background-image: url('/img/tools.svg');
+  background-image: url(./static/tools.svg);
 }
 
 .header-menu__button_repair:hover {
@@ -967,7 +967,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_checkstatus {
   margin-right: 16px;
-  background-image: url('/img/search.svg');
+  background-image: url(./static/search.svg);
 }
 
 .header-menu__button_checkstatus:hover {
@@ -1154,7 +1154,7 @@ button.swiper-pagination-bullet {
   justify-content: end;
   margin-top: 12px;
   margin-bottom: 4px;
-  background-image: url('/img/arrow.svg');
+  background-image: url(./static/arrow.svg);
   background-repeat: no-repeat;
   background-position: 5px center;
   background-color: white;
@@ -1301,7 +1301,7 @@ button.swiper-pagination-bullet {
   display: inline-block;
   width: 10px;
   height: 20px;
-  background-image: url('/src/img/Line.svg');
+  background-image: url(./static/Line.svg);
   background-repeat: no-repeat;
   top: 10px;
   left: 5px;
@@ -1750,7 +1750,7 @@ ul {
 }
 
 .upper-menu__upper-menu-button_burger {
-  background-image: url('/img/crest.svg');
+  background-image: url(./static/crest.svg);
 }
 
 .upper-menu__logo {
@@ -1760,7 +1760,7 @@ ul {
 }
 
 .upper-menu__upper-menu-button_search {
-  background-image: url('/img/search.svg');
+  background-image: url(./static/search.svg);
 }
 
 ul {
@@ -1813,17 +1813,17 @@ ul {
 }
 
 .upper-menu__upper-menu-button_call-me {
-  background-image: url('/img/call.svg');
+  background-image: url(./static/call.svg);
   margin-left: 24px;
 }
 
 .upper-menu__upper-menu-button_chat {
-  background-image: url('/img/chat.svg');
+  background-image: url(./static/chat.svg);
   margin-left: 16px;
 }
 
 .upper-menu__upper-menu-button_profile {
-  background-image: url('/img/profile.svg');
+  background-image: url(./static/profile.svg);
   margin-left: 16px;
 }
 
