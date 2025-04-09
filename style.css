@@ -909,7 +909,7 @@ button.swiper-pagination-bullet {
 
 .header-menu__button_burger {
   margin-left: 16px;
-  background-image: url('/img/icon.svg');
+  background-image: url('/src/img/icon.svg');
 }
 
 .header-menu__button_burger:hover {
